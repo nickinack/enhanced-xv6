@@ -125,14 +125,14 @@ Average rtime 8,  wtime 156
 
 The high waiting time of MLFQ can be attributed to a high overhead in queue insertion and queue deletion.  We tabulate the average wait time and run time as follows:
 
-[Table-1](https://www.notion.so/3d42b1ccbb3a4e338db120df7444626f)
+![Untitled](Assignment-4%20Enhancing%20xv6%20OS%207449096aed0a4884b39cb28e2f89c5d3/Untitled.png)
 
 ## Bonus
 
 We consider 2 IO bound process and 8 CPU bound process with sleep(1) for process initiation the given premise. Since ageing is not uniform, the graph hence obtained is as follows:
 
-![Untitled](Assignment-4%20Enhancing%20xv6%20OS%20289e7d8501ee40849ba7df7fd51ab1b5/Untitled.png)
+![Untitled](Assignment-4%20Enhancing%20xv6%20OS%207449096aed0a4884b39cb28e2f89c5d3/Untitled%201.png)
 
 For 10 CPU bound and 2 IO bound processes without sleep during process initiation, we obtain the following:
 
-![Untitled](Assignment-4%20Enhancing%20xv6%20OS%20289e7d8501ee40849ba7df7fd51ab1b5/Untitled%201.png)
+![Untitled](Assignment-4%20Enhancing%20xv6%20OS%207449096aed0a4884b39cb28e2f89c5d3/Untitled%202.png)
